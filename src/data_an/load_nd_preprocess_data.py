@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
-from scipy import stats
+from scipy.stats import norm
 import matplotlib.pyplot as plt
-
+import seaborn as sns
 
 df = pd.read_csv("../../data/raw/percent_bachelors_degrees_women_usa.csv")
 
